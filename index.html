@@ -13,10 +13,13 @@
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
       rel="stylesheet"
-    />
+    /> -->
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -54,14 +57,10 @@
           <span></span>
         </button>
         <a class="navbar-brand text-brand" href="index.html"
-          ><div
-            style="
-              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-                sans-serif;
-            "
           >
-            SKVK
-          </div></a
+            <img src="img/skvklogo1.png" height="60px" width="140px">
+            
+          </a
         >
         <button
           type="button"
@@ -93,7 +92,7 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Services
+                Sectors
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="./service1.html">Buy/Sell</a>
@@ -134,105 +133,93 @@
     <!--/ Nav End /-->
 
     <div class="carousel">
-      <!-- list item -->
+      
       <div class="list">
         <div class="item">
-          <img src="img/img11.jpg" />
+          <video autoplay loop  muted>
+            <source src="./img/video13.mp4">
+          </video>
+          <!-- <img src="img/img11.jpg" /> -->
           <div class="content">
-            <div class="title">Real Estate Consultancy</div>
+            <div class="title">Think of a New World</div>
             <div class="topic"></div>
             <div class="des"></div>
-            <div class="buttons">
+            <!-- <div class="buttons">
               <button>SEE MORE</button>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="item">
-          <img src="img/img12.jpg" />
-          <div class="content">
-            <div class="title">Buy/Sell</div>
-            <div class="topic"></div>
-            <div class="des"></div>
-            <div class="buttons">
-              <button>SEE MORE</button>
-            </div>
-          </div>
-        </div>
-        <div class="item">
+          <!-- <video autoplay loop  muted>
+            <source src="./img/video14.mp4">
+          </video> -->
           <img src="img/img13.jpg" />
           <div class="content">
-            <div class="title">Rent/Lease</div>
+            <div class="title">Trust Of Generations</div>
             <div class="topic"></div>
             <div class="des"></div>
-            <div class="buttons">
+            <!-- <div class="buttons">
               <button>SEE MORE</button>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="item">
-          <img src="img/img14.jpg" />
+          <video autoplay loop  muted >
+            <source src="./img/video14.mp4">
+          </video>
+          <!-- <img src="./img/img13.jpg" /> -->
           <div class="content">
-            <div class="title">TownShip</div>
+            <div class="title">Trust Quality & Excellence</div>
             <div class="topic"></div>
             <div class="des"></div>
-            <div class="buttons">
+            <!-- <div class="buttons">
               <button>SEE MORE</button>
-            </div>
+            </div> -->
+          </div>
+        </div> 
+        <div class="item">
+          <img src="./img/img14.jpg" />
+          <!-- <video autoplay loop  muted>
+            <source src="./img/video12.mp4">
+          </video> -->
+          <div class="content">
+            <div class="title">Gateway Of New Chapter</div>
+            <div class="topic"></div>
+            <div class="des"></div>
+            <!-- <div class="buttons">
+              <button>SEE MORE</button>
+            </div> -->
           </div>
         </div>
       </div>
-      <!-- list thumnail -->
-      <div class="thumbnail">
+      
+       <div class="thumbnail">
         <div class="item">
-          <img src="img/img11.jpg" />
-          <!-- <div class="content">
-                <div class="title">
-                    Name Slider
-                </div>
-                <div class="description">
-                    Description
-                </div>
-            </div> -->
+          <!-- <img src="img/img11.jpg" /> -->
+          
         </div>
         <div class="item">
-          <img src="img/img12.jpg" />
-          <!-- <div class="content">
-                <div class="title">
-                    Name Slider
-                </div>
-                <div class="description">
-                    Description
-                </div>
-            </div> -->
+          <!-- <img src="img/img12.jpg" /> -->
+          
         </div>
         <div class="item">
-          <img src="img/img13.jpg" />
+          <!-- <img src="img/img13.jpg" /> -->
           <div class="content">
-            <!-- <div class="title">
-                    Name Slider
-                </div>
-                <div class="description">
-                    Description
-                </div> -->
+            
           </div>
         </div>
         <div class="item">
-          <img src="img/img14.jpg" />
+          <!-- <img src="img/img14.jpg" /> -->
           <div class="content">
-            <!-- <div class="title">
-                    Name Slider
-                </div>
-                <div class="description">
-                    Description
-                </div> -->
+            
           </div>
         </div>
       </div>
       <!-- next prev -->
 
       <div class="arrows">
-        <button id="prev"><</button>
-        <button id="next">></button>
+        <button id="prev"></button>
+        <button id="next"></button>
       </div>
       <!-- time running -->
       <div class="time"></div>
@@ -245,7 +232,7 @@
           <div class="col-md-12">
             <div class="title-wrap d-flex justify-content-between">
               <div class="title-box">
-                <h2 class="title-a">Our Services</h2>
+                <h2 class="title-a">Sectors</h2>
               </div>
             </div>
           </div>
@@ -421,26 +408,30 @@
 
     <div class="logos">
       <div class="logos-slide">
-        <img src="./img/3m.svg" />
-        <img src="./img/barstool-store.svg" />
-        <img src="./img/budweiser.svg" />
-        <img src="./img/buzzfeed.svg" />
-        <img src="./img/forbes.svg" />
-        <img src="./img/macys.svg" />
-        <img src="./img/menshealth.svg" />
-        <img src="./img/mrbeast.svg" />
+        <img src="./img/axis-bank-logo-1.svg" />
+        <img src="./img/reliance.png" />
+        <img src="./img/hero-motocorp-logo.svg" />
+        <img src="./img/cargill.png" />
+        <img src="./img/tvs-motor-logo.svg" />
       </div>
-
       <div class="logos-slide">
-        <img src="./img/3m.svg" />
-        <img src="./img/barstool-store.svg" />
-        <img src="./img/budweiser.svg" />
-        <img src="./img/buzzfeed.svg" />
-        <img src="./img/forbes.svg" />
-        <img src="./img/macys.svg" />
-        <img src="./img/menshealth.svg" />
-        <img src="./img/mrbeast.svg" />
+        <img src="./img/axis-bank-logo-1.svg" />
+        <img src="./img/reliance.png" />
+        <img src="./img/hero-motocorp-logo.svg" />
+        <img src="./img/cargill.png" />
+        <img src="./img/tvs-motor-logo.svg" />
       </div>
+      <!-- <div class="logos-slide">
+        <img src="./img/axis-bank-logo-1.svg" />
+        <img src="./img/cargill.png" />
+        <img src="./img/reliance.png" />
+        <img src="./img/hero-motocorp-logo.svg" />
+        <img src="./img/tvs-motor-logo.svg" />
+        <img src="./img/svg1.svg" />
+        <img src="./img/reliance.png" />
+        <img src="./img/cargill.png" />
+        
+      </div> -->
     </div>
 
     <!--/ Agents Star /-->
@@ -782,17 +773,15 @@
               </div>
               <div class="w-body-a">
                 <p class="w-text-a color-text-a">
-                  Real Estate Firm Known as SAMPATI KRIPA VIKRAYA KENDER. SINCE
-                  1968
                 </p>
               </div>
               <div class="w-footer-a">
                 <ul class="list-unstyled">
                   <li class="color-a">
-                    <span class="color-text-a">Phone .</span> skvk@example.com
+                    <span class="color-text-a">Phone .</span> +91- 0141-2374700 , 2375700
                   </li>
                   <li class="color-a">
-                    <span class="color-text-a">Email .</span> +54 356 945234
+                    <span class="color-text-a">Email .</span> info@skvk.co.in
                   </li>
                 </ul>
               </div>
@@ -870,7 +859,7 @@
                   <a href="#">About</a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">Services</a>
+                  <a href="#">Sectors</a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#">Blog</a>
@@ -883,17 +872,17 @@
             <div class="socials-a">
               <ul class="list-inline">
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.facebook.com/skvkgroup/">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.instagram.com/skvkgroup/">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                   </a>
                 </li>
